@@ -1,0 +1,74 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #2c3e50;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.navbar {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+.table {
+  margin-bottom: 0;
+  background: #f3f8ff;
+}
+
+.table-dark th {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+
+.btn {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00a6ff 100%);
+  color: #fff;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #007bff;
+}
+
+.lead {
+  color: #495057;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
